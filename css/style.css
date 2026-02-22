@@ -32,6 +32,28 @@ img {
 	border: 0;
 }
 
+/* Other libadwaita additions */
+.alert_text {
+	color: red !important;
+	font-weight: bold !important;
+}
+
+.red_text {
+	color: red;
+}
+
+.green_text {
+	color: green;
+}
+
+.blue_text {
+	color: blue;
+}
+
+.purple_text {
+	color: purple;
+}
+
 /*linkcolours*/
 
 a:link {
@@ -171,25 +193,15 @@ color: rgb(104,104,144);
 	text-transform: uppercase;
 }
 #contents h2 {
+	color: #2c9688;
 	font-size: 22px;
 	margin: 0 0 30px;
 }
-#contents h2 a {
-	color: #2c9688;
-	text-decoration: none;
-}
 #contents p {
-	color: #5a4535;
 	font-size: 15px;
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 24px 2px;
-}
-#contents p a {
-	color: #5a4535;
-}
-#contents p a:hover, #news div.sidebar ul li a:hover {
-	color: #917157;
 }
 /** box-shadow **/
 #contents div.box {
@@ -297,12 +309,6 @@ hr {
 	#contents div.box, #contents div.box > div, #contents div.body {
 		background-color: black !important;
 		color: white !important;
-	}
-	#main div.box ul li span, #contents p, #contents p a, #contents p a:hover, #news div.sidebar ul li a:hover, #main div.box h4 a, #main div.box ul li span, #contact textarea, #rooms .rate, #news > div span, #news div.sidebar ul li a, #news div.sidebar ul li a, #contact form {
-		color: rgb(224,224,192) !important;
-	}
-	#contents p a:hover,  #news div.sidebar ul li a:hover, #main div.box h4 a:hover {
-		color: rgb(255,255,224) !important;	
 	}
 }
 /** SIDEBAR **/
@@ -494,13 +500,11 @@ hr {
 	margin-bottom: 12px;
 }
 #news > div span {
-	color: #5a4535;
 	display: block;
 	font: 15px/24px "DejaVu Sans", DejaVu Sans, serif;
 	margin-bottom: 30px;
 }
 #news > div span.author {
-	color: #2c9688;
 	display: block;
 	font-size: 14px;
 	margin-bottom: 20px;
@@ -524,7 +528,6 @@ hr {
 	padding: 0;
 }
 #news div.sidebar ul li a {
-	color: #5a4535;
 	display: inline-block;
 	font-size: 15px;
 	margin-bottom: 6px;
