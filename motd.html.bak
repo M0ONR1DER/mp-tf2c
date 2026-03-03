@@ -16,7 +16,7 @@
 		<link rel="canonical" href="https://m0onr1der.github.io/moonspub-tf2c/" />
 		<meta charset="UTF-8">
 		<title>Moon's Pub - MOTD</title>
-		<link rel="stylesheet" href="css/style.css?version=0.0.5" type="text/css">
+		<link rel="stylesheet" href="css/style.css?version=0.0.8" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<style>
@@ -37,16 +37,8 @@
 						<li>
 							<a href="index.html">Home</a>
 						</li>
-						<li class="selected">
-							<a href="motd.html">MOTD</a>
-						</li>
-						<li>
-							<a href="servers.html">Servers</a>
 						<li>
 							<a href="https://discord.gg/SKcRqJq4Z2">Discord</a>
-						</li>
-						<li>
-							<a href="http://moonpub-tf2c.com/sourcebans/">Sourcebans</a>
 						</li>
 						<li>
 							<a href="blog1.html">Blog</a>
@@ -59,6 +51,7 @@
 					<div>
 						<div class="body">
 							<h1>MOTD</h1>
+								<p style="color: red;"><strong>IMPORTANT:</strong> Our TF2C servers are shutting down on March 9th 2026. For more info, check the homepage/discord.</p>
 								<p>Welcome to Moon's Pub, Please enjoy your stay and have fun! If you haven't already, check out the <a href="index.html">homepage</a> for more information on this server after you're done reading this page.</p>
 								<h2>Rules:</h2>
 									<ol>
