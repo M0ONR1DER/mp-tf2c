@@ -1,5 +1,14 @@
 /* Website template by freewebsitetemplates.com */
 /* Website by Moonrider, some additonal style modifications made by libadwaita */
+body:after {
+position: absolute; 
+width: 0; 
+height: 0; 
+overflow: hidden; 
+z-index: -99;
+content: url("../images/backgroundbutton.svg") url("../images/backgroundbuttonhover.svg") url("../images/backgroundbuttondown.svg");
+} 
+
 @font-face{
 font-family: DejaVu Sans;
 src: url(../fonts/DejaVuSans.woff);
@@ -52,6 +61,41 @@ img {
 
 .purple_text {
 	color: purple;
+}
+
+button {
+	box-shadow: 0px 1px 4px 1px rgba(25 ,15 ,15 ,0.69);
+	background-image: url("../images/backgroundbutton.svg");
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+	margin-left: 6px;
+	margin-right: 6px;
+	padding-bottom: 3px;
+	user-select: none;
+	-webkit-user-select: none;
+	font-size: 1em;
+	border: 0.005em solid rgba(0, 0, 0, 1);
+	text-decoration: none;
+	border-bottom: none;
+	outline: none !important; 
+	font-family: DejaVu Sans, "DejaVu Sans";
+	-ms-user-select: none;
+	-moz-user-select: none;
+}
+
+button:hover {
+	background-image: url("../images/backgroundbuttonhover.svg");
+}
+
+button:active {
+	background-image: url("../images/backgroundbuttondown.svg");
+}
+
+#copyLinkButton {
+	padding-top: 0.5em;
 }
 
 summary:hover {
